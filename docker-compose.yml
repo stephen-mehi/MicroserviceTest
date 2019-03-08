@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+
+  Service1:
+    image: service1 
+    build:
+      context: ./Service1
+      dockerfile: Dockerfile
+    ports: 
+    - "8081:80"
+    container_name: service1
+    depends_on:
+      - rabbitmq
+
+  Service2:
+    image: service2   
+    build:
+      context: ./Service2
+      dockerfile: Dockerfile
+    ports: 
+    - "8082:80"
+    container_name: service2
+    depends_on:
+      - rabbitmq     
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "15672:15672"
+    container_name: rabbitmq

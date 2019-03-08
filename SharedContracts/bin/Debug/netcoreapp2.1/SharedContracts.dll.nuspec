@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Test.Microservices.SharedContracts</id>
+    <version>1.0.4</version>
+    <authors>na</authors>
+    <owners>na</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>microservice test contract</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+	<tags>Interfaces</tags>
+    <dependencies>
+    </dependencies>
+	<packageTypes>
+        <packageType name="Dependency" />
+    </packageTypes>
+  </metadata>
+  <files>
+		<file src="SharedContracts.dll" target="lib\net452" />
+	</files>
+</package>

@@ -1,0 +1,8 @@
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\bin\Debug\netcoreapp2.1\Shared.deps.json
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\bin\Debug\netcoreapp2.1\Shared.dll
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\bin\Debug\netcoreapp2.1\Shared.pdb
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\obj\Debug\netcoreapp2.1\Shared.csproj.CoreCompileInputs.cache
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\obj\Debug\netcoreapp2.1\Shared.AssemblyInfoInputs.cache
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\obj\Debug\netcoreapp2.1\Shared.AssemblyInfo.cs
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\obj\Debug\netcoreapp2.1\Shared.dll
+C:\Users\smehi\source\repos\MicroServiceTest\Shared\obj\Debug\netcoreapp2.1\Shared.pdb

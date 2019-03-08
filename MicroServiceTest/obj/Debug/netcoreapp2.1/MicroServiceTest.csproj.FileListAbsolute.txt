@@ -1,0 +1,15 @@
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.csproj.CoreCompileInputs.cache
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.AssemblyInfoInputs.cache
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.AssemblyInfo.cs
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\bin\Debug\netcoreapp2.1\MicroServiceTest.deps.json
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\bin\Debug\netcoreapp2.1\MicroServiceTest.runtimeconfig.json
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\bin\Debug\netcoreapp2.1\MicroServiceTest.runtimeconfig.dev.json
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\bin\Debug\netcoreapp2.1\MicroServiceTest.dll
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.csprojAssemblyReference.cache
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.RazorAssemblyInfo.cache
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.RazorAssemblyInfo.cs
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.RazorTargetAssemblyInfo.cache
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\bin\Debug\netcoreapp2.1\MicroServiceTest.pdb
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.dll
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\MicroServiceTest.pdb
+C:\Users\smehi\source\repos\MicroServiceTest\MicroServiceTest\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
