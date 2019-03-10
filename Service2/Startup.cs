@@ -32,7 +32,7 @@ namespace Service2
                 {
                     var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
                     {
-                        var host = cfg.Host(new Uri("rabbitmq://172.18.0.2/"), h =>
+                        var host = cfg.Host(new Uri("rabbitmq://172.19.0.2/"), h =>
                         {
                             h.Username("guest");
                             h.Password("guest");
@@ -46,7 +46,7 @@ namespace Service2
 
                     });
 
-                    busControl.Start(startTimeout: new TimeSpan(30000));
+                    busControl.Start();
 
                     return busControl;
                 })

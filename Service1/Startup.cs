@@ -30,17 +30,19 @@ namespace Service1
             services
                 .AddSingleton(sp =>
                 {
-                    var bus = Bus.Factory.CreateUsingRabbitMq(config =>
+                    var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
                     {
-                        config.Host(new Uri("rabbitmq://172.18.0.2/"), h =>
+                        var host = cfg.Host(new Uri("rabbitmq://172.19.0.2/"), h =>
                         {
                             h.Username("guest");
                             h.Password("guest");
                         });
+
                     });
 
-                    bus.Start(startTimeout: new TimeSpan(30000));
-                    return bus;
+                    busControl.Start();
+
+                    return busControl;
                 })
                 .AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

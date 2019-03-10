@@ -29,10 +29,10 @@ namespace Service1.Controllers
         {
             Console.Out.WriteLine("TESTTTTTTTTTTTTTTT in get");
 
-            var endpoint = await _busControl.GetSendEndpoint(new Uri("rabbitmq://172.18.0.2/message_type_queue"));
-            await _busControl.Send<MessageType>(new MessageType() { Message="TEST MESSAGE"});
+            //var endpoint = await _busControl.GetSendEndpoint(new Uri("rabbitmq://172.18.0.2/message_type_queue"));
+            //await _busControl.Send<MessageType>(new MessageType() { Message="TEST MESSAGE"});
 
-            //await _busControl.Publish(new MessageType() { Message = "TEST MESSAGE *******" });
+            await _busControl.Publish(new MessageType() { Message = "TEST MESSAGE *******" });
             return new string[] { "value100", "value2" };
         }
 
